@@ -1,0 +1,70 @@
+#hero {
+    background-image: url(" https://preview.colorlib.com/theme/pato/images/slide1-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 450px 0;
+
+    h2 {
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+}
+
+#welcome {
+    .content {
+        padding: 100px 0;
+    }
+}
+
+#discover {
+    background-image: url("https://preview.colorlib.com/theme/pato/images/bg-intro-01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 0;
+    background-attachment: fixed;
+
+    h4 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+}
+
+#menu {
+    .menu-image {
+        position: relative;
+
+        button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: background-color .7s;
+
+            &:hover {
+                background-color: red !important;
+                color: white !important;
+            }
+        }
+    }
+}
+
+#reservation {
+    h4 {
+        color: red;
+        font-style: italic;
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 70px;
+    }
+}

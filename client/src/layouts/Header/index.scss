@@ -1,0 +1,23 @@
+@import "../../assets/sass/responsive";
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
+    .logo {
+        color: red;
+
+        @include for-medium-devices {
+            display: none;
+        }
+    }
+
+    a {
+        transition: color .7s;
+
+        &:hover {
+            color: red !important;
+        }
+    }
+}
